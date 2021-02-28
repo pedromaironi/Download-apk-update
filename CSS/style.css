@@ -1,0 +1,67 @@
+:root {
+    /* Colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black-light: #282623;
+    -grey: #BABABA;
+    --ofwhite: #FAF8F7;
+    --just-white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', sans-serif;
+    background: #F7931A 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0%;
+    min-width: 320px;
+    /* Dimensión mas pequeña en los celulares*/
+    height: 1px;
+    text-align: center;
+    margin-top: 50px;
+    /* 207.8deg significa los grados | porcentaje del color negro | porcentaje del color naranja */
+}
+
+.header--tittle-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header--tittle-container .header--button {
+    position: absolute;
+    left: calc(50% - 114.5px);
+    top: 40px;
+    display: block;
+    margin-top: 15px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--ofwhite);
+    border-radius: 5px;
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--warm-black-light);
+}
